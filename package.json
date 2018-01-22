@@ -1,0 +1,24 @@
+{
+  "name": "webpack-octo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcasperson/webpack-octo-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcasperson/webpack-octo-demo/issues"
+  },
+  "homepage": "https://github.com/mcasperson/webpack-octo-demo#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "@octopusdeploy/octo-webpack-plugin": "0.0.1"
+  }
+}
