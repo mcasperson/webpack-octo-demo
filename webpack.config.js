@@ -4,14 +4,13 @@ const OctoWebpackPlugin = require('@octopusdeploy/octo-webpack-plugin')
 module.exports = {
     entry: './index.js',
     output: {
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'dist')
     },
     plugins: [
         new OctoWebpackPlugin({
             apikey: "blah",
-            host: "http://localhost",
-            replace: true,
-            type: 'zip'
+            host: "http://localhost"
         })
     ]
 };
