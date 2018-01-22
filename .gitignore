@@ -56,3 +56,5 @@ webpack-octo-demo.iml
 node_modules
 dist
 *.tar.gz
+*.zip
+bundle.js
